@@ -1,0 +1,24 @@
+{
+  "name": "sales",
+  "version": "1.0.0",
+  "description": "Site immobilier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magusin/salesman.git"
+  },
+  "author": "HJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magusin/salesman/issues"
+  },
+  "homepage": "https://github.com/magusin/salesman#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}
