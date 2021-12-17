@@ -1,3 +1,5 @@
+//
+
 Error: Cannot find module 'sequelize'
 
 Solution: https://stackoverflow.com/questions/51941168/error-cannot-find-module-sequelize
@@ -11,10 +13,14 @@ if do it locally
 npm install --save sequelize-cli
 npm install --save sequelize"
 
+//
+
 ERROR: connect ECONNREFUSED 127.0.0.1:3306
 
 solution: config "host": "127.0.0.1",
 Xampp:  Port appache and sql on, Mysql 3306
+
+//
 
 Error:  const model = require(path.join(__dirname, file))(sequelize, Sequelize.DataTypes);
                                                      ^
@@ -22,3 +28,19 @@ Error:  const model = require(path.join(__dirname, file))(sequelize, Sequelize.D
 TypeError: require(...) is not a function
 
 Solution: ?
+
+//
+
+error NG8001: 'app-footer' is not a known element: 
+
+Solution: missing declaration and import: app.module.ts
+
+//
+
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Can't find stylesheet to import.
+
+Solution: Mauvaise position, dans src et non dans app.
+
+//
+
