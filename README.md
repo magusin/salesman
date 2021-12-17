@@ -23,3 +23,9 @@ npm i mysql2
 npm i -g sequelize-cli
 npm i -g nodemon
 
+installer angular:
+npm install -g @angular/cli
+
+lancer un nouveau projet:
+ng n angular-name
+
